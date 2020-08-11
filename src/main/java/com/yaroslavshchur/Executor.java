@@ -9,10 +9,10 @@ public class Executor {
         User user = User.builder()
                 .setLogin("user_login")
                 .setPassword("user_password")
-                .setFirstName("Roman")
-                .setLastName("Lysachenko")
-                .setAge(20)
-                .setCity("Odessa")
+                .setFirstName("Yaroslav")
+                .setLastName("Shchur")
+                .setAge(17)
+                .setCity("Kiev")
                 .build();
 
         System.out.println(user.toString());
